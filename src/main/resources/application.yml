@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      database: besocial
+      authentication-database: admin
+      username: ivangrod
+      password: s3cr3t
+
+logging:
+  level:
+    org:
+      springframework:
+        test:
+          context: INFO
